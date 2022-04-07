@@ -1,0 +1,26 @@
+<h1 class="animated fadeIn">{{ social.nombre | uppercase}} <small>({{ social.aparicion | date:'y' }})</small></h1>
+<hr>
+
+<div class="row animated fadeIn fast">
+
+    <div class="col-md-4">
+
+        <img [src]=" social.img " class="img-fluid" alt="social.nombre">
+        <br><br>
+        <a [routerLink]="['/social']" class="btn btn-outline-danger btn-block">Regresar</a>
+
+    </div>
+
+    <div class="col-md-8">
+        <h3>{{social.nombre}}</h3>
+        <hr>
+        <p>{{social.bio }} </p>
+        <div>
+            <img *ngIf="social.casa=='Marvel'" class="img-logo" src="assets/img/marvel.jpg" class="card-img-top" alt="marvel">
+            <img *ngIf="social.casa=='DC'" class="img-logo" src="assets/img/DC.jpg" class="card-img-top" alt="DC">
+
+        </div>
+
+    </div>
+
+</div>

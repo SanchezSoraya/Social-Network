@@ -1,0 +1,15 @@
+<!---   *ngFor="let heroe of heroes; let i = index"-->
+<div class="card animated fadeIn fast">
+    <img [src]=" social.img " class="card-img-top" [alt]="social.nombre">
+    <div class="card-body">
+        <h5 class="card-title">{{ social.nombre }}</h5>
+        <p class="card-text">{{social.bio }}</p>
+        <p class="card-text"><small class="text-muted">{{ social.aparicion }}</small></p>
+
+        <button (click)="verSocial()" type="button" class="btn-outline-primary btn-block">
+            Ver mas...
+          </button>
+
+        <!---- <a [routerLink]="['/heroe', i]" class="btn btn-outline-primary">Ver mas link...</a>-->
+    </div>
+</div>

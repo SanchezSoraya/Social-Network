@@ -8,53 +8,53 @@ export class SocialService {
   private social:Social [] = [
     
       {
-        nombre: "Aquaman",
-        bio: "El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.",
+        nombre: "Guepardo",
+        bio: "El guepardo es el mamífero terrestre más rápido del mundo. Su capacidad de aceleración, que dejaría clavados a la mayoría de los automóviles, le permite pasar de 0 a 96 kilómetros por hora en apenas tres segundos. Este gran felino es sumamente ágil cuando se mueve a gran velocidad y es capaz de hacer giros rápidos e inesperados persiguiendo a su presa.",
         img: "../../assets/img/guepardo.jpg",
-        aparicion: "1941-11-01",
-        casa:"DC"
+        aparicion: "26.000.000-7500000 de años",
+        casa:"antílopes, gacelas, cebras y ñús"
       },
       {
-        nombre: "Batman",
-        bio: "Los rasgos principales de Batman se resumen en «destreza física, habilidades deductivas y obsesión». La mayor parte de las características básicas de los cómics han variado por las diferentes interpretaciones que le han dado al personaje.",
+        nombre: "Fenix",
+        bio: "El ave Fénix es conocido por ser esa criatura que supuestamente renace de sus propias cenizas. El mito, entonces, asocia a esta criatura con la capacidad de resiliencia que muchas personas tienen; esa habilidad para encontrar soluciones a situaciones adversas que les presenta la vida y, al igual que el ave Fénix, renacer de las cenizas que les dejó ese problema.",
         img: "../../assets/img/fenix.jpg",
-        aparicion: "1939-05-01",
-        casa:"DC"
+        aparicion: "500 años antes del renacimiento",
+        casa:"El bambu"
       },
       {
-        nombre: "Daredevil",
-        bio: "Al haber perdido la vista, los cuatro sentidos restantes de Daredevil fueron aumentados por la radiación a niveles superhumanos, en el accidente que tuvo cuando era niño. A pesar de su ceguera, puede \"ver\" a través de un \"sexto sentido\" que le sirve como un radar similar al de los murciélagos.",
-        img: "assets/img/daredevil.png",
-        aparicion: "1964-01-01",
-        casa: "Marvel"
+        nombre: "Selva",
+        bio: "El bioma de la selva es conocido por muchos nombres diferentes; bosque lluvioso, jungla,  bosques densos, entre otros términos. Principalmente alberga una extensa cantidad de especies en flora y fauna además de caracterizarse por albergar árboles de grandes dimensiones y altura. Así que, el bioma selva es de vital importancia para la Tierra!",
+        img: "../../assets/img/paisajes.jpg",
+        aparicion: "",
+        casa: ""
       },
       {
-        nombre: "Hulk",
-        bio: "Su principal poder es su capacidad de aumentar su fuerza hasta niveles prácticamente ilimitados a la vez que aumenta su furia. Dependiendo de qué personalidad de Hulk esté al mando en ese momento (el Hulk Banner es el más débil, pero lo compensa con su inteligencia).",
-        img: "assets/img/hulk.png",
-        aparicion: "1962-05-01",
-        casa:"Marvel"
+        nombre: "Mariposas",
+        bio: "Las mariposas, son unos insectos pertenecientes al orden de los homometábolos, un grupo de insectos superiores, los cuales, a lo largo de su vida sufren una serie de transformaciones complejas conocida como metamorfosis, y en la que se suceden las fases de embrión, larva, pupa e imago.",
+        img: "../../assets/img/mariposa.jpg",
+        aparicion: "120 y 100 millones de años",
+        casa:"néctar de las flores"
       },
       {
-        nombre: "Linterna Verde",
-        bio: "Poseedor del anillo de poder que posee la capacidad de crear manifestaciones de luz sólida mediante la utilización del pensamiento. Es alimentado por la Llama Verde (revisada por escritores posteriores como un poder místico llamado Starheart), una llama mágica contenida en dentro de un orbe (el orbe era en realidad un meteorito verde de metal que cayó a la Tierra, el cual encontró un fabricante de lámparas llamado Chang)",
-        img: "assets/img/linterna-verde.png",
-        aparicion: "1940-06-01",
-        casa: "DC"
+        nombre: "Lago",
+        bio: "Lago, del latín lacus, es una masa permanente de agua que se halla depositada en las depresiones de un terreno. La formación de un lago se produce a partir de fallas geológicas (que generan la depresión del terreno), de la acumulación de morrenas glaciares (acumulación de piedras y barro) o de la obstrucción de un valle a causa de avalanchas producidas en sus laderas.",
+        img: "../../assets/img/lago.jpg",
+        aparicion: "hace 15.000 años",
+        casa: ""
       },
       {
-        nombre: "Spider-Man",
-        bio: "Tras ser mordido por una araña radiactiva, obtuvo los siguientes poderes sobrehumanos, una gran fuerza, agilidad, poder trepar por paredes. La fuerza de Spider-Man le permite levantar 10 toneladas o más. Gracias a esta gran fuerza Spider-Man puede realizar saltos íncreibles. Un \"sentido arácnido\", que le permite saber si un peligro se cierne sobre él, antes de que suceda. En ocasiones este puede llevar a Spider-Man al origen del peligro.",
-        img: "assets/img/spiderman.png",
-        aparicion: "1962-08-01",
-        casa: "Marvel"
+        nombre: "Piramides",
+        bio: "Las pirámides de Egipto son unos de los monumentos más admirados y estudiados del planeta. Construidas con enormes bloques de piedra, estas obras son motivo de incertidumbre para muchos de los arqueólogos que se preguntan cómo fueron construidas en aquel entonces. Las tres pirámides de Guiza: Keops, Kefren y Micerino, son las más conocidas y se ubican cerca de El Cairo.",
+        img: "../../assets/img/piramides.jpg",
+        aparicion: "2680 y 2565 a. C.",
+        casa: ""
       },
       {
-        nombre: "Wolverine",
-        bio: "En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.",
-        img: "assets/img/wolverine.png",
-        aparicion: "1974-11-01",
-        casa: "Marvel"
+        nombre: "Aves",
+        bio: "Las aves son animales vertebrados, de sangre caliente, que caminan, saltan o se mantienen solo sobre las extremidades posteriores,3​ mientras que las extremidades anteriores han evolucionado hasta convertirse en alas que, al igual que muchas otras características anatómicas únicas, les permiten, en la mayoría de los casos, volar, si bien no todas vuelan. ",
+        img: "../../assets/img/aves.jpg",
+        aparicion: "150 millones de año atrás",
+        casa: "semillas, bayas, frutas, insectos, otras aves, huevos, mamíferos pequeños, peces, brotes, larvas, invertebrados acuáticos, bellotas y otras nueces, vegetación acuática, cereales, animales muertos, basura"
       }
     ];
   

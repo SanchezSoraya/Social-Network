@@ -17,6 +17,7 @@ export class SocialComponent implements OnInit {
 
   ngOnInit() {
     this.social=this._socialService.getSocial();
+    console.log(this.social);
   }
 
   verSocial (idx:number){
